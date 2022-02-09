@@ -1,0 +1,17 @@
+server:
+  port: 6080
+
+spring:
+  application:
+    name: service02
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+
+
+logging:
+  level:
+    com.example.service02.controller.Service02: debug
