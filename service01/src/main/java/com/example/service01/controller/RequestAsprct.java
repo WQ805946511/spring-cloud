@@ -21,7 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 @Aspect
 @Slf4j
 public class RequestAsprct {
-
+    /**
+     * 11111
+     */
     @Pointcut("execution(public * com.example.service01.controller.*.*(..))")
     // 切入点说明:包下的任意类，任意方法，任意参数，任意返回值的方法都进行切入
     public void sysLog() {
